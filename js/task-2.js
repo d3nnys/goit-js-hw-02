@@ -1,3 +1,5 @@
+'use strict';
+
 function formatMessage(message, maxLength) {
   return message.length <= maxLength
     ? message
